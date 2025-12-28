@@ -1,10 +1,10 @@
 # Chem_Fuser
 
-Chem_Fuser is a deep generative model for molecular structure recovery using a diffusion-based architecture. It learns to reconstruct complete SMILES strings from partially masked sequences, enabling chemically valid molecule generation via denoising.
+Chemfuser is a deep generative model for molecular structure recovery using a diffusion-based architecture. It learns to reconstruct complete SMILES strings from partially masked sequences, enabling chemically valid molecule generation via denoising.
 
 This project is implemented in PyTorch and is designed for flexibility, performance, and chemical validity during training.
 
-> **Note:** This repository is an improved and extended version of [Chem_Fuser on Hugging Face](https://huggingface.co/kelu01/Chem_Fuser), developed by the same author.
+> **Note:** This repository is an improved and extended version of [Chem_Fuser on Hugging Face](https://huggingface.co/kelu01/Chemfuser), developed by the same author.
 
 ---
 
@@ -23,7 +23,7 @@ This project is implemented in PyTorch and is designed for flexibility, performa
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Kelu01/Chem_Fuser.git
+git clone https://github.com/Kelu01/Chemfuser.git
 cd chem_fuser
 ```
 
@@ -52,7 +52,7 @@ python train_amp.py
 
 ## Project Layout and Directory Overview
 
-The following directories and files contain the key components of the Chem_Fuser project:
+The following directories and files contain the key components of the Chemfuser project:
 
 - `model.py` – Core model implementation, including the transformer-based diffusion architecture and sampling logic.
 - `vocab.py` – SMILES vocabulary management and tokenization functions.
