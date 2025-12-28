@@ -4,7 +4,7 @@ Chemfuser is a deep generative model for molecular structure recovery using a di
 
 This project is implemented in PyTorch and is designed for flexibility, performance, and chemical validity during training.
 
-> **Note:** This repository is an improved and extended version of [Chem_Fuser on Hugging Face](https://huggingface.co/kelu01/Chemfuser), developed by the same author.
+> **Note:** This repository is an improved and extended version of [Chemfuser on Hugging Face](https://huggingface.co/kelu01/Chemfuser), developed by the same author.
 
 ---
 
