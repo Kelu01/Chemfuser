@@ -1,4 +1,4 @@
-# Chem_Fuser
+# Chemfuser
 
 Chemfuser is a deep generative model for molecular structure recovery using a diffusion-based architecture. It learns to reconstruct complete SMILES strings from partially masked sequences, enabling chemically valid molecule generation via denoising.
 
